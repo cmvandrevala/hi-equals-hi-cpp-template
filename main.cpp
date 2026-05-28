@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "src/hello.hpp"
+#include "src/hi.hpp"
 
 int main() {
-  // Your driver program goes here
+  std::cout << hi() << std::endl;
 }
